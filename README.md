@@ -1,6 +1,6 @@
 # Portfolio Website
 
-- 🖥️[**Portfolio Website**]((https://portfolio-website-nine-kappa-29.vercel.app/)
+- 🖥️[**Portfolio Website**](https://portfolio-website-nine-kappa-29.vercel.app/)
 
 ## 🚀 Introduction
 This is the source code for my personal portfolio website, built to showcase my skills, projects, and experience as a Full Stack Developer & UI/UX Designer. The website features a modern, responsive design and interactive elements to engage visitors.
