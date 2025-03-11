@@ -44,10 +44,10 @@ function App() {
   const [messages, setMessages] = useState<Message[]>([]);
 
   const [about, setAbout] = useState({
-    name: 'your name',
+    name: 'SAMARTH SWAMI',
     title: 'Aspiring Engineer | Software Developer | Tech Enthusiast',
     description:
-      "Hi, I'm your name, a passionate engineering student currently pursuing my Bachelor of Engineering (BE) at the XYZ University (0000 - 0000). I have a strong foundation in C, C++, and Java, and I love solving complex problems through code.",
+      "Hi, I'm Samarth Swami, a passionate engineering student currently pursuing my Bachelor of Engineering (BE) at the University of Mumbai (2022-2026). I have a strong foundation in C, C++, and Java, and I love solving complex problems through code.",
     additionalInfo:
       "I'm always eager to explore new technologies, refine my programming skills, and take on challenges that push me to grow. Whether it's developing efficient software solutions or learning about the latest advancements in tech, I'm committed to continuous learning and innovation.",
   });
@@ -68,18 +68,18 @@ function App() {
 
   const [projects, setProjects] = useState<Project[]>([
     {
-      title: 'YOUR PROJECT NAME',
+      title: 'Futurise Gaming',
       description: 'A full-stack Web application with TypeScript and PLpgsql',
       image:
         'https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80',
-      link: 'https://google.in/',
+      link: 'https://futurisegaming.in/',
     },
     // {
-    //   title: 'YOUR PROJECT NAME',
+    //   title: 'Futurise Gaming',
     //   description: 'A full-stack Web application with TypeScript and PLpgsql',
     //   image:
     //     'https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80',
-    //   link: 'https://google.in/',
+    //   link: 'https://futurisegaming.in/',
     // },
   ]);
 
@@ -140,6 +140,20 @@ function App() {
     } catch (error) {
       console.error('Error fetching messages:', error);
     }
+  };
+
+  const login = () => {
+    const password = prompt('Enter owner password:');
+    if (password === 'samu123') {
+      localStorage.setItem('isPortfolioOwner', 'true');
+      setIsOwner(true);
+    }
+  };
+
+  const logout = () => {
+    localStorage.removeItem('isPortfolioOwner');
+    setIsOwner(false);
+    setIsEditing(false);
   };
 
   const downloadResume = () => {

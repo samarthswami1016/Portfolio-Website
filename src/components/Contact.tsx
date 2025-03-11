@@ -61,13 +61,13 @@ const Contact: React.FC<ContactProps> = ({
 
       // Send email notification using custom template
       await emailjs.send(
-        'service_7z5zv5d',
-        'template_7z5zv5d',
+        'service_s3ffzwa',
+        'template_dsn7ve8',
         {
           from_name: contactForm.name,
           from_email: contactForm.email,
           message: contactForm.message,
-          to_name: 'Name',
+          to_name: 'Samarth',
           reply_to: contactForm.email,
           date: new Date().toLocaleDateString('en-US', {
             weekday: 'long',
@@ -78,7 +78,7 @@ const Contact: React.FC<ContactProps> = ({
             minute: '2-digit',
           }),
         },
-        'dvajddnljva'
+        'Ct1mZNMYXrdHGiccA'
       );
 
       // Call the original handler to update local state
@@ -114,7 +114,7 @@ const Contact: React.FC<ContactProps> = ({
             </p>
             <div className="space-y-4">
               <a
-                href="mailto:yourmail1@gmail.com"
+                href="mailto:Samarth.works1@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-blue-400 hover:text-blue-300 transition-colors group"
@@ -123,7 +123,7 @@ const Contact: React.FC<ContactProps> = ({
                 <span>Mail</span>
               </a>
               <a
-                href="https://github.com/"
+                href="https://github.com/Samarthswami1016"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-blue-400 hover:text-blue-300 transition-colors group"
@@ -132,7 +132,7 @@ const Contact: React.FC<ContactProps> = ({
                 <span>Github</span>
               </a>
               <a
-                href="https://leetcode.com/"
+                href="https://leetcode.com/Samarthswami1016/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-blue-400 hover:text-blue-300 transition-colors group"
@@ -141,7 +141,7 @@ const Contact: React.FC<ContactProps> = ({
                 <span>LeetCode</span>
               </a>
               <a
-                href="https://linkedin.com/in/"
+                href="https://linkedin.com/in/samarthswami"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-blue-400 hover:text-blue-300 transition-colors group"
@@ -150,7 +150,7 @@ const Contact: React.FC<ContactProps> = ({
                 <span>LinkedIn</span>
               </a>
               <a
-                href="https://www.instagram.com/"
+                href="https://www.instagram.com/its_.sam._999/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-blue-400 hover:text-blue-300 transition-colors group"
@@ -159,7 +159,7 @@ const Contact: React.FC<ContactProps> = ({
                 <span>Instagram</span>
               </a>
               <a
-                href="https://x.com/"
+                href="https://x.com/SSwami55538"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-blue-400 hover:text-blue-300 transition-colors group"

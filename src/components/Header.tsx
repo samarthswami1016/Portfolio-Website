@@ -57,7 +57,7 @@ const Header: React.FC<HeaderProps> = ({ about, isEditing, onEditChange }) => {
         </p>
         <div className="flex gap-4 justify-center mb-12">
           <a
-            href="https://github.com/"
+            href="https://github.com/Samarthswami1016"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-400 hover:text-white transition-all hover:scale-110 transform"
@@ -65,7 +65,7 @@ const Header: React.FC<HeaderProps> = ({ about, isEditing, onEditChange }) => {
             <Github className="w-6 h-6" />
           </a>
           <a
-            href="https://leetcode.com/"
+            href="https://leetcode.com/Samarthswami1016/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-400 hover:text-white transition-all hover:scale-110 transform"
@@ -73,7 +73,7 @@ const Header: React.FC<HeaderProps> = ({ about, isEditing, onEditChange }) => {
             <SiLeetcode className="w-6 h-6" />
           </a>
           <a
-            href="https://linkedin.com/in/"
+            href="https://linkedin.com/in/samarthswami"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-400 hover:text-white transition-all hover:scale-110 transform"
@@ -81,7 +81,7 @@ const Header: React.FC<HeaderProps> = ({ about, isEditing, onEditChange }) => {
             <Linkedin className="w-6 h-6" />
           </a>
           <a
-            href="mailto:yourmail@gmail.com"
+            href="mailto:Samarth.works1@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-400 hover:text-white transition-all hover:scale-110 transform"
