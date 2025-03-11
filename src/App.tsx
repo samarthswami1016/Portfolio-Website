@@ -58,7 +58,7 @@ function App() {
     name: 'YOUR NAME',
     title: 'Aspiring Engineer | Software Developer | Tech Enthusiast',
     description:
-      'Hi, I’m, a passionate engineering student currently pursuing my Bachelor of Engineering (BE) at the University of Mumbai (2022-2026). I have a strong foundation in C#, C++, and Java, and I love solving complex problems through code.',
+      'Hi, I’m, a passionate engineering student currently pursuing my Bachelor of Engineering (BE) at the XYZ University (0000 - 0000). I have a strong foundation in C#, C++, and Java, and I love solving complex problems through code.',
 
     additionalInfo:
       "I’m always eager to explore new technologies, refine my programming skills, and take on challenges that push me to grow. Whether it's developing efficient software solutions or learning about the latest advancements in tech, I’m committed to continuous learning and innovation.",
